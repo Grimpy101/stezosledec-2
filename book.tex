@@ -1,0 +1,48 @@
+\documentclass[10pt,a4paper,twocolumn,openany]{book}
+
+\usepackage[bg-letter]{lib/rpg-book} % Options: bg-a4, bg-letter, bg-full, bg-print, bg-none.
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+
+\setcounter{secnumdepth}{0}
+
+% Start document
+\begin{document}
+\frontmatter
+
+\rpgMakeCover[
+    image = img/cover,
+    logo = img/logo,
+    title = Stezosledec\\\Huge{Druga izdaja},
+    subtitle = Osnovna pravila igre Pathfinder 2e\\Prevedel Grimpy
+]
+
+\pagenumbering{arabic}
+
+
+\tableofcontents
+
+\include{introduction}
+
+\chapter{Rodovi in porekla}
+
+\chapter{Razredi}
+
+\chapter{Veščine}
+
+\chapter{Posebne izučitve}
+
+\chapter{Oprema}
+
+\chapter{Uroki}
+
+\chapter{Doba razgubljenih znamenj}
+
+\chapter{Igranje igre}
+
+\chapter{Vodenje igre}
+
+\chapter{Izdelovanje in zakladi}
+
+\end{document}
