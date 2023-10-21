@@ -4,11 +4,23 @@
 \usepackage[slovene]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{fontspec}
+\usepackage{newunicodechar}
+\newfontfamily\boxedsymbols{DejaVu Sans}
 
 \setcounter{secnumdepth}{0}
 
+\newunicodechar{♦}{{\boxedsymbols\char`♦}}
+\newunicodechar{◇}{{\boxedsymbols\char`◇}}
+\newunicodechar{↺}{{\boxedsymbols\char`↺}}
+
 % Start document
 \begin{document}
+\newcommand{\oneaction}{♦}
+\newcommand{\twoactions}{♦♦}
+\newcommand{\threeactions}{♦♦♦}
+\newcommand{\freeaction}{◇}
+\newcommand{\reaction}{↺}
+
 \frontmatter
 
 \rpgMakeCover[
