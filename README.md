@@ -1,8 +1,10 @@
 # "Malo za šalo" prevod namizne igre vlog Pathfinder (2. izdaja)
 
-Prevod Stezosledca sledi prosto dostopnemu materialu na spletišču [https://2e.aonprd.com/Rules.aspx](Archives of Nethys). Vsaka pomoč je dobrodošla :)
+Prevod Stezosledca sledi prosto dostopnemu materialu na spletišču [Archives of Nethys](https://2e.aonprd.com/Rules.aspx). Vsaka pomoč je dobrodošla :)
 
-Uporabljena je XeLaTex šablona za RPG dokumente [https://github.com/Krozark/RPG-LaTeX-Template](iz tega repozitorija).
+Uporabljena je XeLaTex šablona za RPG dokumente [iz tega repozitorija](https://github.com/Krozark/RPG-LaTeX-Template).
+
+Trenutni zgrajeni PDF prevoda je [tukaj](/book.pdf).
 
 Za gradnjo končnega PDF priporočam polno namestitev Texlive, sama gradnja predvideva uporabo XeLaTexa.
 
